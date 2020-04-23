@@ -1,1 +1,89 @@
+/* ==UserStyle==
+@name           Dark 20 Things
+@namespace      github.com/sks316/usercss
+@version        1.0.0
+@description    Dark style for yiff.party
+@author         sks316
+==/UserStyle== */
 
+/*
+
+██████╗  █████╗ ██████╗ ██╗  ██╗    ██████╗  ██████╗     ████████╗██╗  ██╗██╗███╗   ██╗ ██████╗ ███████╗
+██╔══██╗██╔══██╗██╔══██╗██║ ██╔╝    ╚════██╗██╔═████╗    ╚══██╔══╝██║  ██║██║████╗  ██║██╔════╝ ██╔════╝
+██║  ██║███████║██████╔╝█████╔╝      █████╔╝██║██╔██║       ██║   ███████║██║██╔██╗ ██║██║  ███╗███████╗
+██║  ██║██╔══██║██╔══██╗██╔═██╗     ██╔═══╝ ████╔╝██║       ██║   ██╔══██║██║██║╚██╗██║██║   ██║╚════██║
+██████╔╝██║  ██║██║  ██║██║  ██╗    ███████╗╚██████╔╝       ██║   ██║  ██║██║██║ ╚████║╚██████╔╝███████║
+╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝    ╚══════╝ ╚═════╝        ╚═╝   ╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚══════╝
+                                                                                                        
+###################################################################################################
+
+A userstyle by sks316, built for use with the 20 Things website
+Redistribution is allowed with proper credit (i.e. in the theme file) to the original authors, in this case sks316
+Report issues to sks316@mail.com, on Discord @sks316#2523, or on Telegram t.me/sks316_2523
+
+###################################################################################################
+
+*/
+@-moz-document domain("20-things.com") {
+    body {
+        background: #000;
+        color: #c0c0c0
+    }
+    h2 {
+        color: #fff;
+    }
+    .card, .bd-callout {
+        background-color: #333;
+        color: #c0c0c0;
+        border: 1px solid #777;
+    }
+    .form-control, .form-control:focus, .thing-content-container {
+        background: #222;
+        color: #c0c0c0;
+        border: 1px solid #444;
+    }
+    .card-body {
+        border: 1px solid #444;
+    }
+    .badge-light, .alert-dark, .alert-light {
+        background: #333;
+        color: #c0c0c0;
+    }
+    .alert-dark, .alert-light {
+        border-color: #444;
+    }
+    .comment-container {
+        background-color: #444 !important;
+    }
+    .navbar {
+        background: #333;
+    }
+    .rc-anchor-light.rc-anchor-normal {
+        border: 1px solid #333;
+    }
+    .editor-toolbar {
+        background: #222;
+        border: 1px solid #333;
+    }
+    .editor-toolbar a {
+        color: #fff !important;
+    }
+    .editor-toolbar a:hover {
+        background: #555;
+        border-color: #444;
+    }
+    .editor-toolbar a.active {
+        background: #777;
+        border-color: #444;
+    }
+    span.CodeMirror-selectedtext {
+        background: #aaa
+    }
+    .CodeMirror {
+        filter: invert(1);
+        background: #ddd;
+    }
+    .footer-link:hover {
+        color: #c0c0c0;
+    }
+}
