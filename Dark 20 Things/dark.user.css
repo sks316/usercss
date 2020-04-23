@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark 20 Things
 @namespace      github.com/sks316/usercss
-@version        1.0.0
+@version        1.0.1
 @description    Dark style for yiff.party
 @author         sks316
 ==/UserStyle== */
@@ -19,7 +19,7 @@
 
 A userstyle by sks316, built for use with the 20 Things website
 Redistribution is allowed with proper credit (i.e. in the theme file) to the original authors, in this case sks316
-Report issues to sks316@mail.com, on Discord @sks316#2523, on Telegram t.me/sks316_2523, or on the dedicated thread at 20 Things https://20-things.com/Thing?thingId=527
+Report issues to sks316@mail.com, on Discord @sks316#2523, or on Telegram t.me/sks316_2523
 
 ###################################################################################################
 
@@ -77,7 +77,7 @@ Report issues to sks316@mail.com, on Discord @sks316#2523, on Telegram t.me/sks3
         border-color: #444;
     }
     span.CodeMirror-selectedtext {
-        background: #aaa
+        background: #aaa;
     }
     .CodeMirror {
         filter: invert(1);
@@ -85,5 +85,15 @@ Report issues to sks316@mail.com, on Discord @sks316#2523, on Telegram t.me/sks3
     }
     .footer-link:hover {
         color: #c0c0c0;
+    }
+    hr {
+        border-top: 1px solid #aaa;
+    }
+    div.editor-preview.editor-preview-active > hr {
+        border-top: 1px solid #555;
+    }
+    .editor-preview, .editor-preview-side {
+        background: #222;
+        border: 1px solid #444;
     }
 }
